@@ -14,6 +14,7 @@
 		ABF33A12258B0CBC007348C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF33A11258B0CBC007348C5 /* Assets.xcassets */; };
 		ABF33A15258B0CBC007348C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF33A13258B0CBC007348C5 /* LaunchScreen.storyboard */; };
 		ABF33A18258B0CBC007348C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF33A17258B0CBC007348C5 /* main.m */; };
+		ABF33A21258B0E04007348C5 /* arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = ABF33A20258B0E04007348C5 /* arm64.s */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		ABF33A14258B0CBC007348C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABF33A16258B0CBC007348C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF33A17258B0CBC007348C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF33A20258B0E04007348C5 /* arm64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = arm64.s; sourceTree = "<group>"; };
+		ABF33A23258B0E18007348C5 /* arm64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arm64.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				ABF33A13258B0CBC007348C5 /* LaunchScreen.storyboard */,
 				ABF33A16258B0CBC007348C5 /* Info.plist */,
 				ABF33A17258B0CBC007348C5 /* main.m */,
+				ABF33A20258B0E04007348C5 /* arm64.s */,
+				ABF33A23258B0E18007348C5 /* arm64.h */,
 			);
 			path = Arm64BasicsInstructions;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				ABF33A0D258B0CB9007348C5 /* ViewController.m in Sources */,
 				ABF33A07258B0CB9007348C5 /* AppDelegate.m in Sources */,
 				ABF33A18258B0CBC007348C5 /* main.m in Sources */,
+				ABF33A21258B0E04007348C5 /* arm64.s in Sources */,
 				ABF33A0A258B0CB9007348C5 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
